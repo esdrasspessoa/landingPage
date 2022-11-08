@@ -30,7 +30,7 @@ Os usuários devem ser capazes de:
 ### Links
 
 - URL da solução: [https://github.com/esdrasspessoa/landingPage](https://your-solution-url.com)
-- URL do site ao vivo: [Adicione o URL do site ao vivo aqui](https://your-live-site-url.com)
+- URL do site ao vivo: [https://esdrasspessoa.github.io/htmlCss/landingPage/](https://your-live-site-url.com)
 
 ## Meu processo
 
@@ -45,8 +45,8 @@ Os usuários devem ser capazes de:
 
 ## Autor
 
-- Site - [Adicione seu nome aqui](https://www.your-site.com)
+- Site - [https://github.com/esdrasspessoa//](https://www.your-site.com)
 
-- Mentor de frontend - [@seunomedeusuário](https://www.frontendmentor.io/profile/seunomedeusuário)
+- Mentor de frontend - [https://www.frontendmentor.io/profile/esdrasspessoa](https://www.frontendmentor.io/profile/seunomedeusuário)
 
   
