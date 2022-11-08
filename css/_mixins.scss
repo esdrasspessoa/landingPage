@@ -1,0 +1,20 @@
+
+
+@mixin config ($tag) {
+    @if $tag == header {
+        grid-column: 1/4;
+        align-self: center;
+        width: 100%;
+    } @else if $tag == section {
+        grid-column: 1/4;
+        display: flex;
+        gap: 50px;
+    } @else if $tag == footer {
+        grid-column: 1/4;
+        display: flex;
+        justify-content: end;
+        gap: 20px;
+    } @else {
+        background-color: black;
+    }
+}

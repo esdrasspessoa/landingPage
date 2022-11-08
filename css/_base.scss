@@ -1,0 +1,27 @@
+@import 'variables';
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+    background-color: $--colorPrimary;
+    background-image: url(../images/bg-desktop.svg);
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+    color: #ffffff;
+}
+
+span {
+    display: block;
+}
+
+
+

@@ -1,0 +1,116 @@
+@import 'base';
+@import 'extends';
+@import 'mixins';
+
+
+.main {
+    width: 900px;
+    padding: 0 2%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 70px 430px 50px;
+    row-gap: 50px;
+
+    .header {
+        
+        @include config(header);
+
+        img {
+            width: 20%;
+        }
+    }
+
+    .section {
+
+        @include config(section);
+
+        .box1 {
+            width: 60%;
+
+            img {
+                width: 100%;
+            }
+        }
+
+
+        .box2 {
+            width: 40%;
+
+            h1 {
+                font-weight: 600;
+                font-size: 27px;
+                margin: 50px 0 20px
+            }
+    
+            p {
+                font-weight: 400;
+                font-size: 14px;
+
+            }
+
+            .button {
+               @extend %button;
+            }
+        }
+    }
+
+    .footer {
+
+        @include config(footer);
+
+        .social-icon {
+            @extend %social-icon;
+        }
+    }
+}
+
+
+//MEDIA 
+
+@media (max-width:799px) {
+
+    body {
+        background-image: url(../images/bg-mobile.svg);
+        background-size: cover;
+    }
+
+    .main { 
+
+        display: flex;
+        flex-direction: column;
+
+        .header {
+
+            img {
+                width: 40%;
+            }
+        }
+       .section {
+        flex-direction: column;
+        gap: 25px;
+
+        .box1 {
+            width:auto;
+        }
+
+        .box2 {
+            width: auto;
+            text-align: center;
+
+            .button {
+                display: inline-block;
+            }
+        }
+
+       }
+
+       .footer {
+        justify-content: center;
+       }
+        
+    }
+
+
+
+
+}

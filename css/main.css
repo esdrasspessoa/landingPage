@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: hsl(257deg, 40%, 49%);
+  background-image: url(../images/bg-desktop.svg);
+  font-family: "Poppins", sans-serif;
+  padding: 20px;
+  color: #ffffff;
+}
+
+span {
+  display: block;
+}
+
+.main .section .box2 .button {
+  display: flex;
+  justify-content: center;
+  width: 35%;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 50px;
+  border: none;
+}
+.main .section .box2 .button a {
+  text-decoration: none;
+  font-size: 14px;
+  color: hsl(257deg, 40%, 49%);
+  font-family: "Poppins", sans-serif;
+}
+.main .section .box2 .button:hover {
+  background-color: hsl(300deg, 69%, 71%);
+}
+.main .section .box2 .button:hover a {
+  color: #ffffff;
+}
+
+.main .footer .social-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  border: 2px solid #ffffff;
+  border-radius: 100%;
+}
+.main .footer .social-icon a {
+  color: #ffffff;
+}
+.main .footer .social-icon:hover {
+  border-color: hsl(300deg, 69%, 71%);
+}
+.main .footer .social-icon:hover a {
+  color: hsl(300deg, 69%, 71%);
+  padding: 20px;
+}
+
+.main {
+  width: 900px;
+  padding: 0 2%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 70px 430px 50px;
+  row-gap: 50px;
+}
+.main .header {
+  grid-column: 1/4;
+  align-self: center;
+  width: 100%;
+}
+.main .header img {
+  width: 20%;
+}
+.main .section {
+  grid-column: 1/4;
+  display: flex;
+  gap: 50px;
+}
+.main .section .box1 {
+  width: 60%;
+}
+.main .section .box1 img {
+  width: 100%;
+}
+.main .section .box2 {
+  width: 40%;
+}
+.main .section .box2 h1 {
+  font-weight: 600;
+  font-size: 27px;
+  margin: 50px 0 20px;
+}
+.main .section .box2 p {
+  font-weight: 400;
+  font-size: 14px;
+}
+.main .footer {
+  grid-column: 1/4;
+  display: flex;
+  justify-content: end;
+  gap: 20px;
+}
+@media (max-width: 799px) {
+  body {
+    background-image: url(../images/bg-mobile.svg);
+    background-size: cover;
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+  .main .header img {
+    width: 40%;
+  }
+  .main .section {
+    flex-direction: column;
+    gap: 25px;
+  }
+  .main .section .box1 {
+    width: auto;
+  }
+  .main .section .box2 {
+    width: auto;
+    text-align: center;
+  }
+  .main .section .box2 .button {
+    display: inline-block;
+  }
+  .main .footer {
+    justify-content: center;
+  }
+}/*# sourceMappingURL=main.css.map */
