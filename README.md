@@ -2,18 +2,6 @@
 
 Esta é uma solução para o [desafio da página inicial do Huddle com uma única seção introdutória no Frontend Mentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0) . Os desafios do Frontend Mentor ajudam você a melhorar suas habilidades de codificação criando projetos realistas.
 
-## Índice
-
-- [Visão geral](#visão geral)
-  - [O desafio](#the-challenge)
-  - [Captura de tela](#captura de tela)
-  - [Links](#links)
-- [Meu processo](#meu-processo)
-  - [Construído com](#construído com)
-- [Autor](#autor)
-
-## Visão geral
-
 ### O desafio
 
 Os usuários devem ser capazes de:
@@ -29,8 +17,8 @@ Os usuários devem ser capazes de:
 
 ### Links
 
-- URL da solução: [https://github.com/esdrasspessoa/landingPage](https://your-solution-url.com)
-- URL do site ao vivo: [https://esdrasspessoa.github.io/htmlCss/landingPage/](https://your-live-site-url.com)
+- URL da solução: [https://github.com/esdrasspessoa/landingPage](https://github.com/esdrasspessoa/landingPage)
+- URL do site ao vivo: [https://esdrasspessoa.github.io/htmlCss/landingPage/](https://esdrasspessoa.github.io/htmlCss/landingPage/)
 
 ## Meu processo
 
@@ -45,8 +33,8 @@ Os usuários devem ser capazes de:
 
 ## Autor
 
-- Site - [https://github.com/esdrasspessoa//](https://www.your-site.com)
+- Site - [https://github.com/esdrasspessoa/](https://github.com/esdrasspessoa/)
 
-- Mentor de frontend - [https://www.frontendmentor.io/profile/esdrasspessoa](https://www.frontendmentor.io/profile/seunomedeusuário)
+- Mentor de frontend - [https://www.frontendmentor.io/profile/esdrasspessoa](https://www.frontendmentor.io/profile/esdrasspessoa)
 
   
